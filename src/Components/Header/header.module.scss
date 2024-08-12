@@ -1,0 +1,22 @@
+.header {
+  height: 80px;
+  background-color: #00838f;
+  display: flex;
+  align-items: center;
+
+  input {
+    height: 42px;
+    padding: 0;
+    font-size: 14px;
+    font-style: italic;
+  }
+  legend {
+    display: none;
+  }
+
+  button {
+    height: 42px;
+    margin-left: 9px;
+    width: 105px;
+  }
+}

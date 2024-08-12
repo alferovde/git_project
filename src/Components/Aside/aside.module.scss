@@ -1,0 +1,49 @@
+.sidebar {
+  width: 40%;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.sidebar_content {
+  height: 100%;
+  padding: 0;
+
+  width: 100%;
+  h2 {
+    width: 100%;
+    padding-top: 30px;
+  }
+}
+
+.sidebar_header {
+  display: flex;
+  margin: 30px 0;
+  align-items: center;
+  justify-content: space-between;
+  .sidebar_header__lang {
+    color: white;
+    height: 40px;
+    background-color: #2196f3;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .sidebar_header__stars {
+    display: flex;
+    align-items: center;
+
+    svg {
+      fill: #ffb400;
+      margin-right: 15px;
+    }
+  }
+}
+
+.sidebar_license {
+  font-size: 12px;
+  margin-top: 30px;
+}
