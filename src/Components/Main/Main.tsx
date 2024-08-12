@@ -18,7 +18,7 @@ const Main = ({ query, setQuery }: PropsQuery) => {
   const [page, setPage] = useState(0);
 
   const [sortRow, setSortRow] = React.useState("");
-  console.log(loading);
+
   const [currentRep, setCurrentRep] = useState<dataGit[]>([]);
   //функция пагинации страниц
   const handleChangePage = (

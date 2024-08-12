@@ -5,7 +5,6 @@ import { Query, GitState } from "../store/inderfaces";
 export const fetchRepo = createAsyncThunk(
   "git/fetchGit",
   async (data: Query) => {
-    console.log("--perSlice-", data.page);
     const result = await axios
       .get(
         `https://api.github.com/search/repositories?q=${data.query}%20in:name&per_page=${data.perPage}&sort=${data.sort}&page=${data.page}`
